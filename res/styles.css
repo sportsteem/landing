@@ -204,7 +204,7 @@ h1 {
 }
 
 p {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 @media all and (min-width:481px) {
