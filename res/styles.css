@@ -48,6 +48,10 @@ video#bgvid {
   background-size: cover; 
 }
 
+#logo {
+  width: 420px;
+}
+
 .form-horizontal .form-group {
   margin-right: 0;
   margin-left: 0;
