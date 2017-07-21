@@ -83,13 +83,13 @@ video#bgvid {
   }
 }
 
+*/
+
 @media all and (min-width: 768px) {
   .form-horizontal .user-signup__col-2 {
     width: 1%;
   }
 }
-
-*/
 
 .floating-signup__wrap {
   position: fixed;
