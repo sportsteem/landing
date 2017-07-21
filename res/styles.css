@@ -116,6 +116,10 @@ video#bgvid {
     transform: translateY(0);
     float: none;
   }
+  
+  #logo {
+    width: 240px;
+  }
 }
 
 .insert--image {
