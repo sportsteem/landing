@@ -48,6 +48,20 @@ video#bgvid {
   background-size: cover; 
 }
 
+@media screen and (max-device-width: 800px) {
+  body {
+    background: url(/res/footballtoss.gif) #000 no-repeat center center fixed;
+      background-attachment: scroll;
+      background-position: 50% 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+  }
+  #bgvid {
+    display: none;
+  }
+}
+
 #logo {
   width: 305px;
 }
