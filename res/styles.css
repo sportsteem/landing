@@ -75,6 +75,8 @@ video#bgvid {
   position: relative;
 }
 
+/*
+
 @media all and (max-width: 767px) {
   .form-horizontal .mt-table,.form-horizontal .mt-table--full,.form-horizontal .mt-table--centered,.form-horizontal .mt-table--full,.form-horizontal .mt-td--centered-vertical {
     display: block;
@@ -86,6 +88,8 @@ video#bgvid {
     width: 1%;
   }
 }
+
+*/
 
 .floating-signup__wrap {
   position: fixed;
