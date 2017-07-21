@@ -203,6 +203,10 @@ h1 {
   color: #FFF;
 }
 
+p {
+  font-weight: bold;
+}
+
 @media all and (min-width:481px) {
   p {
     font-size: 22px;
@@ -215,7 +219,7 @@ h1 {
 
 @media all and (min-width:769px) {
   p {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   h1 {
