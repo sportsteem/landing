@@ -49,7 +49,7 @@ video#bgvid {
 }
 
 #logo {
-  width: 420px;
+  width: 42%;
 }
 
 .form-horizontal .form-group {
@@ -115,10 +115,6 @@ video#bgvid {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     float: none;
-  }
-  
-  #logo {
-    width: 240px;
   }
 }
 
