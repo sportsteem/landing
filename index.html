@@ -10,6 +10,7 @@
     <meta name="og:description" content="Predict sports and profit, risk-free! SportSteem is a new concept in social sports gaming." property="og:description">
     <meta name="og:image" content="" property="og:image">
     <link rel="icon" href="favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="./res/styles.css">
@@ -19,6 +20,22 @@
       <source src="/res/footballtoss.webm" type="video/webm">
       <source src="/res/footballtoss.mp4" type="video/mp4">
     </video>
+    <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="privacy-title">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="privacy-title">SportSteem.com Privacy Policy</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
       <div id="loading" class="loading-state" style="display: none;"></div>
       <div>
         <section>
@@ -56,7 +73,7 @@
                 </div>
                 <div class="row">
                   <p style="text-align: center;">
-                      <span style="font-size: 14px;">Join us for kickoff by entering your email. Your data is <a href="/res/privacy">always private</a>.</span>
+                      <span style="font-size: 14px;">Join us for kickoff by entering your email. Your data is always <a href="#" data-toggle="modal" data-target="#privacy">private</a>.</span>
                   </p>
                 </div>
               </div>
