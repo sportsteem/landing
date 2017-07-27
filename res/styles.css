@@ -230,17 +230,22 @@ h1 {
 
 p {
   font-weight: 500;
+  font-size: 22px;
 }
 
+h1 {
+    font-size: 60px;
+  }
+
+/*
 @media all and (min-width:481px) {
   p {
     font-size: 22px;
   }
 
-  h1 {
-    font-size: 60px;
-  }
+  
 }
+*/
 
 @media all and (min-width:769px) {
   p {
