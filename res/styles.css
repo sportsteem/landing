@@ -125,6 +125,8 @@ video#bgvid {
   transform: translateY(-50%);
 }
 
+/*
+
 @media all and (max-width: 480px) {
   .floaty-unfloat-at--xs.floating-signup__wrap {
     position: static;
@@ -138,6 +140,8 @@ video#bgvid {
     float: none;
   }
 }
+
+*/
 
 .insert--image {
   display: block;
